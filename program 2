@@ -1,0 +1,35 @@
+#print 4 multiples 
+n=int(input('Enter n value:'))
+m=int(input('Enter m value:'))
+l=[i for i in range(n,m+1)if i%4==0 ]
+print(l,'are multiples of 4 ')
+
+output:
+Enter n value:20
+Enter m value:40
+[20, 24, 28, 32, 36, 40] are multiples of 4 
+
+
+#print 5 multiples 
+n=int(input('Enter n value:'))
+m=int(input('Enter m value:'))
+l=[i for i in range(n,m+1)if i%5==0 ]
+print(l,'are multiples of 5 ')
+output:
+Enter n value:20
+Enter m value:40
+[20, 25, 30, 35, 40] are multiples of 5 
+
+
+
+
+#print 4 and 5 multiples 
+n=int(input('Enter n value:'))
+m=int(input('Enter m value:'))
+l=[i for i in range(n,m+1)if i%4==0 and i%5==0]
+print(l,'are multiples of 4 and 5')
+
+output:
+Enter n value:20
+Enter m value:40
+[20, 40] are multiples of 4 and 5
